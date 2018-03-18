@@ -159,7 +159,7 @@ bar {
 
     position top
     height 20
-    output HDMI-1
+#    output DP-1 
     workspace_buttons yes
     font pango: Hack Nerd Font 12px
     status_command ~/.config/i3/conkybar.sh
@@ -183,7 +183,7 @@ colors {
 gaps inner 10
 gaps outer 10
 for_window [class="^.*"] border pixel 0
-exec --no-startup-id /usr/bin/xrandr --output DP-1 --right-of HDMI-1 --primary
+#exec --no-startup-id /usr/bin/xrandr --output DP-1 --right-of HDMI-1 --primary
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id /usr/bin/compton
 

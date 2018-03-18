@@ -1,4 +1,4 @@
-end the header so that i3bar knows we want to use JSON:
+#end the header so that i3bar knows we want to use JSON:
 echo '{"version":1}'
 
 # Begin the endless array.
